@@ -2,11 +2,14 @@ from nightscout import Api
 from arrow import Arrow
 from urllib import request
 from flask import Flask, jsonify, request as req
+from os import environ as env
 
 application_id = 'd89443d2-327c-4a6f-89e5-496bbb0317db'
-nightscout_url = ''
+nightscout_url = env['NIGHTSCOUT_URL']
 server_host = '0.0.0.0'
 server_port = 5000
+if 'PORT' in env:
+    server_port = env['PORT']
 
 app = Flask('DexcomBridge')
 nightscout_api = Api(nightscout_url)
