@@ -1,0 +1,3 @@
+arrow
+flask
+git+https://github.com/ps2/python-nightscout.git

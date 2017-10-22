@@ -1,0 +1,9 @@
+{
+  "env": {
+    "NIGHTSCOUT_URL": {
+      "required": true,
+    },
+    "PORT": {
+    }
+  }
+}

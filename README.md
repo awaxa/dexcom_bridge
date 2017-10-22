@@ -12,6 +12,8 @@ This application will take the values from your NightScout website, and convert 
 
 # Instructions
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 1. Fork this repository if you want, and clone it to your local machine.
 2. Go into the directory you just cloned and create a virtual environment:
     * `$ python3 -m venv env`
